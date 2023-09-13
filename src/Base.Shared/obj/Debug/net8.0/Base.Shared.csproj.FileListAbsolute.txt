@@ -1,0 +1,12 @@
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\bin\Debug\net8.0\Base.Shared.deps.json
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\bin\Debug\net8.0\Base.Shared.dll
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\bin\Debug\net8.0\Base.Shared.pdb
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.AssemblyInfoInputs.cache
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.AssemblyInfo.cs
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.sourcelink.json
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.dll
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\refint\Base.Shared.dll
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\Base.Shared.pdb
+D:\Projects\PetProjects\hosted-service-dotnet8\src\Base.Shared\obj\Debug\net8.0\ref\Base.Shared.dll

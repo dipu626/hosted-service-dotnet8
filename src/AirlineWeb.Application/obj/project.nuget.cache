@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sVXkurpe1c/QkUNbIgfB9qvT0w0Xo2OVxX0RIM1WRP2CfFzIg6ZaS4iDaor7Fdd+2i0PPBBuLO3bGuM3lgCc5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.selise.biz/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

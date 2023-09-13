@@ -1,0 +1,11 @@
+﻿- RabbitMQ commands:
+	- Run Docker Image:
+		- $ docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:tagname
+	- Default Port:
+		- 5672
+	- See Logs:
+		- $ docker logs some-rabbit
+	- Setting default user and password
+		- $ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
+	- Setting default vhost
+		- $ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_VHOST=my_vhost rabbitmq:3-management

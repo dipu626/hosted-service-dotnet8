@@ -1,0 +1,701 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\WebService\\WebService.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj",
+        "projectName": "AirlineWeb.Application",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\AirlineWeb.Domain.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\AirlineWeb.Domain.csproj"
+              },
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\AirlineWeb.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\AirlineWeb.Domain.csproj",
+        "projectName": "AirlineWeb.Domain",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\AirlineWeb.Domain.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\AirlineWeb.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\AirlineWeb.Infrastructure.csproj",
+        "projectName": "AirlineWeb.Infrastructure",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\AirlineWeb.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Application\\AirlineWeb.Application.csproj"
+              },
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\AirlineWeb.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\AirlineWeb.Presentation.csproj",
+        "projectName": "AirlineWeb.Presentation",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\AirlineWeb.Presentation.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\AirlineWeb.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Infrastructure\\AirlineWeb.Infrastructure.csproj"
+              },
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj",
+        "projectName": "Base.Application",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj",
+        "projectName": "Base.Domain",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\Base.Domain.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\Base.Shared.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\Base.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj",
+        "projectName": "Base.Infrastructure",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Application\\Base.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj",
+        "projectName": "Base.Presentation",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Infrastructure\\Base.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\Base.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\Base.Shared.csproj",
+        "projectName": "Base.Shared",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\Base.Shared.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\WebService\\WebService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\WebService\\WebService.csproj",
+        "projectName": "WebService",
+        "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\WebService\\WebService.csproj",
+        "packagesPath": "C:\\Users\\dipuk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\WebService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\AirlineWeb.Presentation.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\AirlineWeb.Presentation\\AirlineWeb.Presentation.csproj"
+              },
+              "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj": {
+                "projectPath": "D:\\Projects\\PetProjects\\hosted-service-dotnet8\\src\\Base.Presentation\\Base.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

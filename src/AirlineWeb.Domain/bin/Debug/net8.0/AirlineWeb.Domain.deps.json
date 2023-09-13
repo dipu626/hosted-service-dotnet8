@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AirlineWeb.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AirlineWeb.Domain.dll": {}
+        }
+      },
+      "Base.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Base.Domain.dll": {}
+        }
+      },
+      "Base.Shared/1.0.0": {
+        "runtime": {
+          "Base.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirlineWeb.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

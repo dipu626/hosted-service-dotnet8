@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AirlineWeb.Application/1.0.0": {
+        "dependencies": {
+          "AirlineWeb.Domain": "1.0.0",
+          "Base.Application": "1.0.0"
+        },
+        "runtime": {
+          "AirlineWeb.Application.dll": {}
+        }
+      },
+      "AirlineWeb.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AirlineWeb.Domain.dll": {}
+        }
+      },
+      "Base.Application/1.0.0": {
+        "dependencies": {
+          "Base.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Base.Application.dll": {}
+        }
+      },
+      "Base.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Base.Domain.dll": {}
+        }
+      },
+      "Base.Shared/1.0.0": {
+        "runtime": {
+          "Base.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirlineWeb.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AirlineWeb.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
